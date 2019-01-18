@@ -30,3 +30,15 @@ curl localhost/clients // test
 This page has been viewed 2 times! // response
 ...
 ```
+
+1. Pracitcal
+Download this and run the application https://github.com/qubusp/nodejs-nginx-redis-docker-app. 
+Tasks:
+        - fix the app. 
+        - find a way to ensure all the application containers are running behind nginx. There is no limit for your imagination.
+        - find a way to test if the numbers thrown out by the application are really consecutive. Still no limit for your imagination. 
+        - If the application is restarted make the healthcheck print how many times it did so. 
+        - Write a separete Docker container which will do all of the above. Bonus points for compose. 
+2. Theory:
+Imagine that this is the basic of a waiting order machine in a bank office which offers credits, cash desk, account services and mortgages.  Imagine you are writting an EPIC, what are the subtasks you would prepare? What is missing and what should be added?
+NB: We do not have a right way of doing things. If you can present us with more than one way of resolving a task or atleast outline it - we would be more than happy. 

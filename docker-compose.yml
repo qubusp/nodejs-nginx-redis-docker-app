@@ -36,4 +36,4 @@ node3:
 redis:
     image: redis
     ports:
-        - "6378"
+        - "6379"
