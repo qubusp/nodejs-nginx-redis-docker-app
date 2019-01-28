@@ -1,4 +1,4 @@
-# NodeJS, Redis, Nignx y Docker
+# NodeJS, Redis, Nignx und Docker
 
 A simple Node.js application that increments a counter stored on Redis.
 I want to run Redis and the node application independently as I want to have
